@@ -37,7 +37,7 @@ function App() {
         const requestData = JSON.parse(jsonInput);
 
         try {
-            const res = await fetch('https://your-backend.vercel.app/bfhl', {
+            const res = await fetch('https://your-backend-repois.onrender.com', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
